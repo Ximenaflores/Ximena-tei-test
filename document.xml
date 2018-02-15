@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#">
+<rdf:Description rdf:about="https://cwrc-writer.cwrc.ca//editor/documents/null">
+	<cw:mode>0</cw:mode>
+	<cw:allowOverlap>false</cw:allowOverlap>
+</rdf:Description>
+</rdf:RDF>
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Experiment in Hybrid Open-Access Online Scholarly Publishing: Regenerations</title>
+                <author>Susan Brown</author>
+                <author>Linda Cameron</author>
+                <author>Anita Cutic</author>
+                <author>Mihaela Ilovan</author>
+                <author>Olga Ivanova</author>
+                <author>Ruth Knechtel</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016-06-08</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="CWRC-GitWriter-web-app" version="1.0" notAfter="2018-02-15T23:05:05.490Z">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2018-01-29T20:38:59Z</date>
+                    <name/>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:lang="en-CA"><p>
+                <hi rend="bold" xml:space="preserve">A Experiment in Hybrid Open-Access Online Scholarly Publishing: </hi>
+                <hi rend="italic bold">Regenerations</hi>
+            </p>
+            <p>Susan Brown, Linda Cameron, Anita Cutic, Mihaela Ilovan, Olga Ivanova, Ruth Knechtel, Andrew MacDonald, Brent Nelson, Stan Ruecker, Stéfan Sinclair and members of the INKE Research Group</p>
+            <div type="section"><head>Abstract:</head>
+           
+            <p>In the mature years of print, publishers, librarians, and scholars had clearly defined and segregated roles. In the digital era, the boundaries have broken down as they did in earlier book history, creating hybridity of form and of roles. This paper provides: 1) an overview of e-reading environments; 2) a survey of the Dynamic Table of Contexts interface; and 3) a report on the hybrid production process of a particular online text, <hi rend="italic">Regenerations</hi>, that could only have emerged from a collaboration among a digital infrastructure project, research project, university press, and digital humanities tool suite.</p></div>
+            <div type="section"><head>Overview and context for the Dynamic Table of Contexts</head>
+            <p>The Dynamic Table of Contexts (DToC) is a reading interface that attempts to leverage some of the new affordances of digital books for people who are familiar with some of the useful features of conventional print books. In particular, it grows from a realization that the standard table of contents and index are two different ways of providing overviews of the material in a book. It allows the reader dynamically to combine the two, according to her own needs and interests. Experimentation with various designs and prototypes began from 2005 (Nelson 2013). The production version of the DToC used for the work described here in 2005 was based on the sixth design. The DToC has been incorporated into the Voyant Tools suite developed by Stéfan Sinclair and Geoffrey Rockwell, which makes it available to scholars and members of the general public to enable the creation of editions of their own. It was of considerable interest, therefore, to the Canadian Writing Research Collaboratory (CWRC) both as a possible means of providing an interface for particular documents or collections within CWRC’s virtual research environment, and to respond to the request from CWRC members to enable them to create their own anthologies of materials.</p>
+            <p>We used the DToC to investigate the relationship between what might be considered two types of indexing: the scholarly index, as produced by a professional book indexer, that emerged from centuries of the book as printed object, and the semantic markup that has become normalized as a means of structuring digital texts.</p>
+            <p>The question of the relationship of indexes to ebooks, and of indexing to the affordances of digital textuality, is of considerable interest within and beyond the community of people who are interested in the impact of the digital turn on reading environment and reading practices. Publishers of e-books have had difficulty incorporating indexes into the new medium, and they have been missed by readers. As Peter Meyers put it in an early blog post on e-books: “why has the ebook index gone AWOL?” (2105). Only in  was a specification<hi rend="background(white)" xml:space="preserve"> “to define a consistent way of encoding the structure and content of </hi><ref annotationId="ent_6" target="s1.2_j"><hi rend="background(white)">indexes</hi></ref><hi rend="background(white)" xml:space="preserve"> in EPUB Publications” recommended by the International Digital Publishing Forum, despite the fact that the Forum launched the format as an official standard in 2007 (</hi>“E-Pub Indexes 1.0”; Wikipedia, “e-pub”; </p></div>
+            <div type="section"><head>Hybridity of form</head>
+           
+            <p>The current age is experiencing in the shifting supports for publication between print and digital a halting progress similar to that evident from studies in book history. Old forms persist and new ones are slow in developing. We are still in the incunabula period of digital publication, and not surprisingly, most attempts at electronic book publication still owe a great deal to their print predecessors.</p>
+            <p>We can think of the relationship between print and digital in terms of three categories: remediated form, parallel form, and hybrid form.</p>
+            <p><hi rend="italic">Remediated form</hi> is by far the most common form, where the print artefact is replicated in an electronically delivered form, typically in a pdf file. This is what constitutes a typical Google book and, in some cases, a publisher’s offering as an e-book (see Figure 1). If we are lucky, that pdf was generated from a machine-readable file which produces clean, searchable text, but commonly, as in the case of Google, searchability is achieved only through “dirty”, that is to say quite inaccurate, OCR. The only additional affordance over a printed copy is easier sharing, accessing, and copying of the document through electronic means. </p>
+            <figure>
+                <graphic n="1001" width="15.160625cm" height="13.520208333333333cm" url="media/image1.png" rend="inline"/>
+            </figure>
+            <p>Figure 1: An example of a remediated text.</p>
+            <p><hi rend="italic">Parallel form publication</hi> is also quite common, where an electronic form is developed to match the printed form of the content. In most cases the electronic form is a fairly simple webpage with a few added features that are native to the web. Recently, Oxford University Press has been producing electronic versions of this type, for example, Daniel Starza Smith’s <hi rend="italic">John Donne and the Conway Papers</hi>, with the added “Find it” functionality of an OpenURL link resolver (see Fig. 2). </p>
+            <figure>
+                <graphic n="1002" width="14.472708333333333cm" height="12.012083333333333cm" url="media/image2.png" rend="inline"/>
+            </figure>
+            <p>Figure 2: Parallel form publication: a slightly enhanced web-based e-version of a published text</p>
+            <p><hi rend="italic">A hybrid form</hi> of publication puts the advantageous forms and functions of the two supports together into a new form. The premise here is that there are some forms and functions that developed in the printed form that bring great utility and should not be abandoned in an attempt to completely reinvent the book as container. It is hard to imagine, for example, a collection of essays that does not have a table of contents, or at least some form that provides the same functions of identifying discrete divisions in the collection (whether they are called chapters or something else) and pointing the reader to where they can be found (whether by page number or by a direct hyperlink, or both). </p>
+            <p>In the case of the <hi rend="italic">Blackwell Companion to Digital Humanities</hi>, the web-version contains elements that remind us of a parallel printed version: not only a page facsimile of the cover, but also a table of contents that looks much like that of the printed form, except that the page numbers have been replaced by hyperlinks (Fig 3.). There are also elements here that are native to web-based documents, such as a search bar. In fact, once the reader opens a chapter, the native form seems almost entirely that of a webpage. This is an example of limited hybridity.</p>
+            <p>Figure 3: Limited hybridity: an e-version of a published text with hyperlinks</p>
+            <p>The web-version of <hi rend="italic">Debates in the Digital Humanities</hi> describes itself as “a hybrid print/digital publication stream that will explore new debates as they emerge.” This publication represents the debut of a custom-built social reading platform. Going beyond the basic task of making the contents of the printed edition accessible, the OA platform makes the text interactive, with key features that allow readers to interact with the text by marking passages as interesting and adding terms to a crowdsourced index.</p>
+            <p>The emphasis here is in adding a new, social function to the act of annotation to facilitate the development of these “debates” in the digital humanities that will, they hope, contribute to new iterations of the book (see Fig. 4). This hybrid includes an enhanced table of contents that can be expanded and contracted and retains a key feature of the printed page: fixed and justified margins that fall within the range of standard line lengths. The signature feature, however, attempts to make a virtue of a long-standing complaint about online reading: that, in contrast to the printed book, it curtails the annotation function. This version still is not able to replicate the ease and flexibility of annotation one enjoys in a print environment, but it does add a new capacity to this very old function of annotation: the possibility for annotators across vast geographical space to see and respond to each other’s annotation of the text. </p>
+            <p>Figure 4: Hybridity in a custom social reading platform: affordances include annotation</p>
+            <p>Our case study represents in one sense parallel form publication to the extent that there is a print volume and there is also a web-based version that in many respects attempts to emulate the print version, except that the web-based volume itself is a hybrid form, retaining forms and function of the print object, but adding to these new forms that are native to web-based publication. </p>
+            <p>Here is an overview of some of the features in the DToC edition of <hi rend="italic">Regenerations</hi> (Carrière and Demers) that represent the categories described above (see Fig. 5).</p>
+            <figure>
+                <graphic n="1009" width="16.51cm" height="6.6675cm" url="media/image9.png" rend="inline"/>
+            </figure>
+            <p>Figure 5: Parallel and hybrid: the Dynamic Table of Contexts interface</p>
+            <p>
+                <hi rend="italic bold">Carry-over features</hi>
+            </p>
+            <list type="unordered">
+                <item><hi rend="italic">Running titles / Persistent title</hi>. One of the challenges in reading extensive webpage content is a lack of orientation. This is something the print form, with discrete page architecture, does very well. The running title, for example, gives a persistent representation of the chapter one is reading. In the DToC we have a number of devices that provide this function, in addition to the persistent title at the top of the reading pane. The table of contents to the left, for example, is always in view, with the current chapter highlighted in orange.</item>
+                <item><hi rend="italic">Drop initials</hi> are a simple and under-considered navigational device. A crucial piece of information is where a major section of text, in this case a chapter, begins. Again, in a scrolling webpage, it can sometimes be unclear just where one is situated in a document. In a scrolling web-view, it is possible to imagine coming to the screen and seeing a paragraph at the top of the reading pane and assume it is the start of the chapter. The drop initial unambiguously signals the start of the chapter.</item>
+                <item><hi rend="italic" xml:space="preserve">Table of contents </hi>(but, see below)</item>
+            </list>
+            <p>
+                <hi rend="italic bold">Compensatory features</hi>
+            </p>
+            <list type="unordered">
+                <item><hi rend="italic">Annotator</hi>. As mentioned above, there are some features and functionality in the print environment that are difficult to achieve in the digital. As scholars, we recognize the importance of annotation. A printed book is eminently tractable in this respect. The digital environment, less so. Annotation is not our focus, but recognizing that readers require this function, we have incorporated a third-party system provided by Open Knowledge Foundation’s Annotator. </item>
+                <item><hi rend="italic">Orientation</hi>. Another function that is inherent in the codex form is the ability to quickly visualize, indeed, feel, where one is in the context of the whole. The eye can see it and the thumb can feel it along the fore-edge. Some printings have implemented divisional tabs. Students around the world apply sticky-tabs. We preserve some of this functionality with our document model.</item>
+            </list>
+            <p>
+                <hi rend="italic bold">Features unique to a digital environment</hi>
+            </p>
+            <p>There is, of course, functionality in the digital reading environment that is not possible in print, beyond the standard Ctrl-F search. </p>
+            <list type="unordered">
+                <item><hi rend="italic">Search</hi>: As noted, this is a standard affordance.</item>
+                <item><hi rend="italic" xml:space="preserve">Analysis and visualization. </hi>The DToC Statistics panel enables a kind of reading that is not possible, something approaching distant reading (see Fig. 6).</item>
+            </list>
+            <figure>
+                <graphic n="10010" width="16.51cm" height="13.18665cm" url="media/image10.png" rend="inline"/>
+            </figure>
+            <p>Fig. 6: The DToC Statistics Panel visualizing word frequency across a chapter.</p>
+            <list type="unordered">
+                <item><hi rend="italic" xml:space="preserve">Semantic text encoding. </hi>Another feature native to many scholarly digital texts is semantic encoding or tagging. One of the challenges and frustrations of scholars using sophisticated encoding such as Text Encoding Initiative (TEI) markup for texts is that so often this enhancement is not easily passed on to the user. Many interfaces provide no immediate access to the XML text and the important work of knowledge representation may support a few affordances in the text, such as searching within particular sections or for a particular type of entity, but otherwise remains invisible to the average reader. As the following section explains, the DToC integrates the encoding as a core feature of the interface navigation.</item>
+            </list>
+            <p>
+                <hi rend="italic bold">Enhancement of inherited features: hybridity</hi>
+            </p>
+            <p>We approach true hybridity where inherited features are not simply carried over to the digital environment but used to create new kinds of digital affordances. The name of the DToC alludes to but departs from the table of contents, which is present but in a modified form as a table of <hi rend="bold">con</hi><hi rend="italic bold">texts</hi> that makes the interface uniquely dynamic. That is, we mobilize a number of contexts at once which interact with and enhance the inherited print form:</p>
+            <list type="unordered">
+                <item>The index and the semantic XML tags form complementary navigational features. Two panels, one labelled “Index” and the other “Tags”, indicate how many instances of the index term or tag are present in the text, and allow the reader to click on one or more terms. The index and tag panels provide several innovative affordances (see Fig. 7): <list type="unordered"><item>expand the Table of Contents to include, below the title of each chapter in which it occurs, each instance of the term or tag that occurs in that chapter, along with a snippet of the text associated with the index term or the beginning of the textual contents of the tag</item><item>see where each term or tag occurs on the document model, thus gaining a sense of the overall distribution and any clusters of terms</item><item>navigate to the point in the text where a particular instance of either occurs, by clicking on the snippet in the expanded Table of Contents or on the bar in the document model</item></list></item>
+            </list>
+            <figure>
+                <graphic n="10011" width="16.51cm" height="13.194691666666667cm" url="media/image11.png" rend="inline"/>
+            </figure>
+            <p>Figure 7: Index and semantic tag affordances</p>
+            <p>This interface is both interactive and dynamic in a number of ways. The reader is able to interact with the various components of the tool for a very rich and versatile reading experience. Moving between searching, statistics, the index, the tags, the annotations, the ToC, the document view, and reading panel in itself provides a wide range of permutations to match various preferences in navigating texts. The view of the index and of tags can also be filtered by chapter. If a reader wants a “pure” reading experience untrammelled by these aids, she can also just close the panels altogether.</p>
+            <p>The reader can also alter the reading environment more dramatically by moving into Curation mode. Curation mode allows for the following:</p>
+            <list type="unordered">
+                <item>Inclusion and exclusion of particular tags</item>
+                <item>Relabelling of those tags within the interface so that, for instance, persName might be relabelled “Person” or “Personal Name”.</item>
+                <item>Reordering of chapters within the Table of Contents.</item>
+            </list></div>
+            <div type="section"><head>Hybridity of process</head>
+            <p>The <hi rend="italic">Regenerations</hi> essay collection came out of the first conference of the Canadian Writing Research Collaboratory (or CWRC) – Canadian Women Writers Conference: “Connecting Texts and Generations”. The University of Alberta Press launched the printed edition together with the more traditional by now remediated forms (pdf, epub, Kindle) in Fall 2014, while CWRC launched the Dynamic Table of Contexts edition in Spring 2015.</p>
+            <p>The process of collaboration between a large publishing house and an open access Digital Humanities project like CWRC was a new challenge for both collaboration partners. The University of Alberta Press had some prior involvement in digital publishing through online projects such as the <ref annotationId="ent_8" target="http://railways.library.ualberta.ca/"><hi rend="italic underline" xml:space="preserve">Atlas of Alberta </hi></ref><ref annotationId="ent_10" target="http://railways.library.ualberta.ca/"><hi rend="italic underline">Railways</hi></ref> (Lester), and it now, like most presses, routinely publishes epub editions of its print texts. It has, upcoming, its first publication in solely digital form. While the Press had, in the past, released some of its out-of print publications under open access licenses, this was an in-print collection. On the other hand, digital humanities projects have been more likely to disseminate public domain materials and open-access content. </p>
+            <p>The Press had, of course, its well-established publication process: once a manuscript is peer reviewed and approved for publication by the UAlberta Press (UAP) Committee, the press collaborates closely with the author and various members of the publishing team including the editor, designer and indexer. This time, however, the team involved in the publication process had to be extended to include the members of the Dynamic Table of Contexts team. While the press had to get used to having the editors of the printed edition replaced with the DToC editors somewhere along this complex publishing process and to learn what the digital humanists were hoping to accomplish, the DToC team had to gain an understanding of the UAP publishing process and to work with the Press in order to avoid parallel workflows and divergent versions of the collection.</p>
+            <p>As many iterative changes in the text take place during the copyediting, book design, proofreading, indexing and final review stages of the “regular” publishing process, the DToC publication team could not receive the text before it was ready to print, since the agreement specified that the content of the print and DToC editions would be identical.</p>
+            <p>In addition to this, the DToC edition required a fully linked conceptual and thematic index. While the usual practice for the UAP was to leave aside the index from the electronic editions with reflowable text (i.e. no page numbers), this was not an option in this case and the DToC team, in conjunction with the indexers (i.e. French and English essays had separate indexes) and the Press had to come up with an workflow that would ensure the DToC edition could reuse as much as possible of the indexing work that had gone into the printed edition.</p>
+            <p>Last but not least, the Microsoft Word versions of the book (easy to translate into XML - the format we needed for the DToC edition) stopped in the copyediting phase, as it is customary in the publication process; after that, all the edits are made in an InDesign document and this is what the DToC publishing team received from UAP in the fall of 2014. This is when the DToC publication process started in full.</p>
+            <p>In order to process the collection in the Dynamic Table of Contexts and render it in the interactive manner we demoed earlier, the plain text had to be marked up using XML (Extensible Markup Language) an open standard that encodes text in both machine-readable and human-readable format. To cut down on the work of encoding the structure of the documents, we performed a number of step-by step operations that moved the text of the collection across a number of different applications and formats to the desired one – TEI – an XML standard widely used for the markup of humanist texts. While the press was completing its customary publication process, it took the DToC team a full year to develop and test the workflow and to fine-tune the Dynamic table of Contexts. </p>
+            <p>Since this was a machine-generated XML document and hence riddled with markup noise, in the first stage of the DToC editing process we had to remove said markup noise and make the document validate against the TEI specifications<hi rend="bold" xml:space="preserve">. </hi>In the next stage of the DToC editing, unique identifiers were generated for each paragraph and note in the document. Thus prepared, Regenerations was returned to the same indexers who had worked on the printed edition. Their work for the DToC version of the index consisted of replacing the page references with the corresponding paragraph unique identifiers provided by our team. The revised plain text index document they provided was then encoded in TEI and reincorporated into the master document. This completed the initial, clean-up phase of the editing process. We proceeded then to the next stage, that of mark-up enrichment.</p>
+            <p>Clearly, the production of the DToC edition was a very laborious process. The silver lining to this is the fact that unlike the print version of the book where all the preparation process had as outcome a single visual expression of the text and its remediated forms, the kind of editing done in preparation of the DToC edition opens up an array of possibilities for further exploration of the text using other digital tools capable of processing XML. To that end, we decided to annotate the text with named entity references which link the names of persons, organizations, places and titles with international authority files like the Virtual International Authority File and Geonames. By identifying these references in text in a machine-readable way, we are opening the volume to further exploration and analysis beyond the constraints of the Dynamic Table of Contexts, outreaching and inviting further hybridization of the text.</p>
+            <p>The second part of the markup enrichment stage consisted of adding a semantic, interpretive layer to the markup by using a set of tags developed by the Orlando Project, an online history of British women’s writing. Unlike the mainly structural tags of TEI, Orlando uses for its biographical entries a series of tags meant to encode different aspects of a writer’s life and work. Specific references to these aspects of literary and biographical analysis were encoded into the <hi rend="italic">Regenerations</hi> DToC edition. Since tagging a text using semantic tags consists, to some extent, of a series of subjective decisions, we had the 3 encoders engaged in the process check each other’s work to promote tagging consistency and to cut down on the final editorial review. <graphic n="10012" width="16.721666666666668cm" height="6.241991666666666cm" url="media/image12.png" rend="block"/></p>
+            <figure>
+                <graphic n="10013" width="12.104688888888889cm" height="7.596736111111111cm" url="media/image13.png" rend="inline"/>
+            </figure>
+            <p>Figure 8: Entity tagging and semantic tagging: markup and rendered views</p>
+            <p>The amount of work put into this Hybrid publication is staggering and without a doubt prohibitive to most solitary scholars who would like to repeat the experiment. To give you some numbers, the over 300 pages of the volume were encoded (via automatic processes or through individual labour) with more than 15,000 tags:</p>
+            <list type="unordered">
+                <item>310 pages (print edition)</item>
+                <item>1,003 paragraphs</item>
+                <item>15,000 xml tags</item>
+                <item>2001 named entity references (541 persons; 144 organizations; 258 places; 1058 titles)</item>
+                <item>1,136 semantic tags</item>
+            </list>
+            <figure>
+                <graphic n="10014" width="16.51cm" height="12.311944444444444cm" url="media/image14.png" rend="inline"/>
+            </figure>
+            <p>Figure 9: A breakdown of the labour involved in producing <hi rend="italic">Regenerations</hi></p>
+            <p>Though the project might be considered a failure from a business model perspective based on these numbers (see Fig. 9), this would neglect to take into account the exploratory, research-oriented nature of the edition that combined a highly experimental interface with multilayered markup and a one of kind collaboration process between two very distinctive publication models. </p>
+            <p><hi rend="italic">Regenerations</hi> might be launched, but the research it grounds is just taking off in terms of user testing, consequent revision to the interface, and further editions including the second volume of CWRC conference essays, <hi rend="italic" xml:space="preserve">Cultural Mapping and the Digital Sphere </hi>(Panofsky and Kellett)<hi rend="italic">,</hi> published in a second open-access edition by CWRC in the Dynamic Table of Contexts in 2016. We also plan to integrate the Dynamic Table of Contexts into the CWRC online research platform as part of the CWRC-Voyant 2.0 bridge into the CWRC repository where it can be made available for other volumes and for researcher-produced essay collections, anthologies, and experimental editions.<lb/></p></div>
+            <div type="section"><head>Implications/Conclusions</head>
+            
+            <p>At this point, the impact on print sales for the UAP is difficult to assess due to the relatively low numbers for publications of this type. A good indicator of the type of impact this joint model could have on sales is given by the publication of Sarah Carter’s <hi rend="italic">The Importance of Being Monogamous</hi> in conjunction with the University of Athabasca Press. In that particular case, one of the derivative forms of the printed book—the pdf version—was made publically available through a Creative Commons licence, a fact which didn’t influence the sales of the printed version. In fact, The University of Athabasca Press gets asked for print copies by people who came into contact with the free edition. This seems to underline the idea that print and electronic publication are not mutually exclusive, but complementary. </p>
+            <p>On a different note, the indexers’ experience with our hybrid model of indexing reflowable text made them confident in the feasibility of such an endeavour which could, potentially make the UAP revise their current policy regarding indexes for books. </p>
+            <p>The collaboration described here brought together the expertise of fine academic book production with that of experimental interface researchers. The financial risks on both sides were not equal; the Press’s risk was underwritten by a financial subvention from the University of Alberta Libraries. This made the project possible and permitted a more fertile negotiation that produced an e-publication in enriched rather than derivative form. The result is two forms of publication that complement each other: the Dynamic Table of Contexts Browser edition is not trying to be a book, but to leverage the capacity of the digital medium to offer new affordances. As such it contributes to a rise in hybrid print-digital publication ventures, for instance, the <ref annotationId="ent_12" target="https://www.upress.umn.edu/press/press-releases/manifold-scholarship"><hi rend="underline">Manifold Scholarship</hi></ref> series, which is dedicated to “iterative, networked monographs” (University of Minnesota Press).</p>
+            <p>As with Mellon’s support of Manifold Scholarship, however, it is clear that this initiative was only possible because of additional investment on both sides, not just of money, but of time, attention, and imagination. Public funding of research through the SSHRC-funded Implementing New Knowledge Environments project, along with support from the University Libraries, gave us the space to think, to explore, to test, to iterate, to train students, to mark up text, to produce two parallel indexes for the two editions, and to report on our research. The final result is 1) a more polished and testable interface than we would otherwise have; 2) an object with high production values, quality content, and an existing user community that will allow for superior testing; and an important intervention in emergent modes of scholarship and e-publishing that could not have emerged from the commercial publishing sector. The market is currently driving e-book interfaces that tend to be skeumorphic imitations of print reading environments. This intervention enabled by grant funding structures indicates the importance of publicly funded research in relation to major developments in the knowledge environment such as e-book interfaces.</p></div>
+            <div type="section"><head>Acknowledgements</head>
+            
+            <p>This work would not have been possible without the support of the Social Sciences Humanities Research Council and the Canada Foundation for Innovation.</p></div>
+           <div type="section"> <head>References</head>
+           
+           <listBibl> <bibl>Barnum, Carol et al. (2004). “Index Versus Full-Text Search: A Usability Study of User Preference and Performance.” <hi rend="italic">Technical Communication</hi> 51.2 (2004): 185–206. Print.</bibl>
+            <bibl>Bogaty, Nick. “<hi rend="background(white)">OPS 2.0 Elevated to Official IDPF Standard</hi>“ <ref annotationId="ent_14" target="http://www.ebooklyn.net/p/ops-20-elevated-to-official-idpf.html"><hi rend="underline">http://www.ebooklyn.net/p/ops-20-elevated-to-official-idpf.html</hi></ref>. EBookLyn blog. N.d.</bibl>
+            <bibl>Canadian Writing Research Collaboratory. cwrc.ca.</bibl>
+            <bibl>Carter, Sarah. (2008). <hi rend="italic">The importance of being monogamous: Marriage and Nation Building in Western Canada to 1915</hi>. Edmonton: University of Alberta Press, 2008.</bibl>
+            <bibl>Carrière, Marie and Patricia Demers, eds. (2014). <hi rend="italic">Regenerations: Canadian Women Writers/Régénérations:Écriture des femmes au Canada</hi>. Digital edition ed. Susan Brown, Mihaela Ilovan and Ruth Knechtel. Edmonton: University of Alberta Press, 2014. Digital edition: Canadian Writing Research Collaboratory, 2014. Web. <ref annotationId="ent_16" target="http://cwrc.ca/voyant/regenerations">cwrc.ca/voyant/regenerations</ref></bibl>
+            <bibl>“E-Pub Indexes 1.0.” (2015). <ref annotationId="ent_18" target="http://www.idpf.org/epub/idx/"><hi rend="underline">http://www.idpf.org/epub/idx/</hi></ref><hi rend="underline">.</hi> 26 August 2015.</bibl>
+            <bibl>Geonames. <ref annotationId="ent_20" target="http://www.geonames.org/">http://www.geonames.org/</ref></bibl>
+            <bibl>Gold, Matthew K. (2012). <hi rend="italic">Debates in the digital humanities</hi>. U of Minnesota Press, 2012. Web. <ref annotationId="ent_22" target="http://dhdebates.gc.cuny.edu/">http://dhdebates.gc.cuny.edu/</ref></bibl>
+            <bibl>Implementing New Knowledge Environments. Web. inke.ca </bibl>
+            <bibl>Lester, Geoffrey. (2005). <hi rend="italic">Atlas of Alberta Railways</hi>. Edmonton: University of Alberta Press, 2005. Print and web. <ref annotationId="ent_24" target="http://railways.library.ualberta.ca/">http://railways.library.ualberta.ca/</ref></bibl>
+            <bibl>Losee, Robert M. (2013). “The Effect of Assigning a Metadata or Indexing Term on Document Ordering (English).” <hi rend="italic">Journal of the American Society of Information Science and Technolology</hi> 64 (11): 2191–2200. Print.</bibl>
+            <bibl>University of Minnesota Press. (2105). “The University of Minnesota Press partners with CUNY's GC Digital Scholarship Lab to launch MANIFOLD SCHOLARSHIP—a platform for iterative, networked monographs—with grant from the Andrew W. Mellon Foundation.” Press Release. Web. 20 April 2015. <ref annotationId="ent_26" target="http://www.upress.umn.edu/press/press-releases/manifold-scholarship">http://www.upress.umn.edu/press/press-releases/manifold-scholarship</ref></bibl>
+            <bibl>Maxwella, Tamsin, and Burkhard Schaferb. (2010). “Natural Language Processing and Query Expansion in Legal Information Retrieval: Challenges and a Response.” <hi rend="italic">International Review of Law, Computers &amp; Technology</hi> 24.1: 63–72. <hi rend="italic">EBSCOhost</hi>. Web. 14 May 2015.</bibl>
+            <bibl>Meyers, Peter. (2015). “Missing Entry: Whither the eBook Index?“ Blogpost. A New Kind of Book: Principles and Practices. Web. <ref annotationId="ent_28" target="http://newkindofbook.com/2011/09/missing-entry-whither-the-ebook-index/"><hi rend="underline">http://newkindofbook.com/2011/09/missing-entry-whither-the-ebook-index/</hi></ref> </bibl>
+            <bibl>Nelson, Brent, Stéfan Sinclair, Susan Brown, Milena Radzikowska, Mark Bieber, Stan Ruecker. (2013). “A Short History and Demonstration of the Dynamic Table of Contexts.” <hi rend="italic">Scholarly and Research Communication</hi> 3(4). Web. <ref annotationId="ent_30" target="http://src-online.ca/index.php/src/article/view/55">http://src-online.ca/index.php/src/article/view/55</ref></bibl>
+            <bibl>Kellett, Kathleen, and Ruth Panofsky, ed. (2015). <hi rend="italic">Cultural Mapping and the Digital Sphere: Place and Space.</hi> Edmonton: University of Alberta.</bibl>
+            <bibl>Schreibman, Susan, Ray Siemens, and John Unsworth, eds. (2008). <hi rend="italic">A Companion to Digital Humanities</hi>. John Wiley &amp; Sons.</bibl>
+            <bibl>Sinclair, Stéfan and Geoffrey Rockwell. Voyant Tools. <ref annotationId="ent_32" target="http://voyant-tools.org/">http://voyant-tools.org/</ref> 2015.</bibl>
+            <bibl>Smith, Daniel Starza. 2014. <hi rend="italic">John Donne and the Conway Papers: patronage and manuscript circulation in the early seventeenth century</hi>. Oxford: Oxford University Press and Oxford Scholarship Online, 2014. Print and web.</bibl>
+            <bibl>Text Encoding Initiative. <ref annotationId="ent_34" target="http://www.tei-c.org/index.xml">http://www.tei-c.org/index.xml</ref></bibl>
+            <bibl>Virtual International Authority File. OCLC. <ref annotationId="ent_36" target="https://viaf.org/">https://viaf.org/</ref></bibl>
+               <bibl>Willis, Craig, and Robert M. Losee. “A Random Walk on an Ontology: Using Thesaurus Structure for Automatic Subject Indexing (English).” <hi rend="italic">J. Am. Soc. Inf. Sci. Technol. (Print)</hi> 64.7 (2013): 1330–1344. Print.</bibl></listBibl></div></div>
+        </body>
+    </text>
+</TEI>
